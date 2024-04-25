@@ -1,13 +1,13 @@
-// "use client";
+"use client";
 
 import Image from "next/image";
-import eco_hero_bg from "../../assets/images/eco-hero-bg.jpg";
-import eco_hero_splash_icon from "../../assets/images/eco-hero-splash-icon.png";
+import eco_hero_bg from "../../assets/images/img/eco-hero-bg.jpg";
+import eco_hero_splash_icon from "../../assets/images/img/eco-hero-splash-icon.png";
 import { GoArrowUp } from "react-icons/go";
 
 const HeroSection = () => {
   return (
-    <main className="text-white ">
+    <main className="text-white mt-20">
       <section>
         <div>
           <Image
