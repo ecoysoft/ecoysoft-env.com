@@ -1,7 +1,7 @@
 // "use client";
 import Image from "next/image";
 import { FaUserAlt } from "react-icons/fa";
-import { FaPlayCircle } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa";
 import eco_bg from "../../assets/images/img/eco-work-bg.png"
 export default function WhyUs() {
   return (
@@ -16,12 +16,12 @@ export default function WhyUs() {
 
             <div className="md:w-[50%]">
               <p className="text-[0.75rem] leading-[25.6PX] font-semibold text-[#55E6A5]">Why choose us</p>
-              <h1 className="text-[3rem] leading-[62px] font-bold text-[#18191C] mb-6">Building a design easy for business</h1>
+              <h1 className="text-[2.2rem] md:text-[3rem]  leading-[40px]  sm:leading-[62px] font-bold text-[#18191C] mb-6">Building a design easy for business</h1>
               <hr className="w-[32%] border-b-[2px]  hidden md:block"></hr>
             </div>
 
             <div className="md:w-[50%]">
-              <p className=" text-justify sm:text-center md:text-justify leading-[25.6px]	text-[#6F7174]">
+              <p className="text-[14px]  xl:text-[16px] text-justify sm:text-center md:text-justify leading-[25.6px]	text-[#6F7174]">
                 At ecoysoft Management, we simplify the design process for your business.
                 Our expert designers and innovative solutions ensure seamless integration
                 and impactful results. From concept to execution, we prioritize simplicity,
@@ -35,14 +35,17 @@ export default function WhyUs() {
           <div className="sm:flex sm:gap-4 md:gap-6 lg:gap-8 mt-8 ">
 
             <div className="sm:w-[520px] xl:w-[600px] h-[240px] xl:h-[400px]  md:h-[300px] bg-black rounded-[14px] text-[#ffff] flex flex-col  md:gap-[30px] xl:gap-[40px]">
-              <div className=" ms-[35px] md:mt-[30px] text-center md:text-left">
+              <div>
+
+              </div>
+              <div className=" md:ms-[35px] xl:mt-[30px] text-center md:text-left">
                 <h1 className="text-[4rem] md:text-[5rem] xl:text-[6rem] leading-[115.2px] font-bold"><span>90</span><span className="text-[#55E6A5]">+</span></h1>
                 <p className=" text-[14px] md:text-[16px] xl:text-[20px] text-[#C8CFD5] ">Projects Completed</p>
               </div>
 
-              <div className=" ms-[35px] mt-[30px]  flex justify-center md:justify-start ">
+              <div className=" md:ms-[35px] mt-[30px]  flex justify-center md:justify-start ">
 
-                <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-400 -mr-2.5 z-50  border-hhite border-2 text-[#ffff] rounded-full flex justify-center items-center">
+                <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-400 -mr-2.5 z-50   border-2 text-[#ffff] rounded-full flex justify-center items-center">
                   <FaUserAlt className="w-[100%] h-[50%]" />
                 </p>
 
@@ -80,8 +83,8 @@ export default function WhyUs() {
                 </div>
 
                 <div className="relative flex justify-end mt-4 sm:mt-0  xl:mt-16 -right-3">
-                  <button className="w-[80px] sm:w-[100px] md:w-[130px] h-[80px] sm:h-[100px] md:h-[130px] bg-[#FFFFFF] rounded-full  hover:border-spacing-10 hover:bg-[#55E6A5]">
-                    <p className="text-black text-4xl flex justify-center items-center w-[63px] sm:w-[80px] md:w-[108px]  h-[63px] sm:h-[80px] md:h-[108px] mx-auto   bg-[#55E6A5] hover:bg-white rounded-full "><FaPlayCircle /></p>
+                  <button className="w-[80px] sm:w-[100px] md:w-[130px] h-[80px] sm:h-[100px] md:h-[130px] bg-[#FFFFFF] rounded-full  hover:bg-[#55E6A5]">
+                    <p className="text-2xl sm:text-3xl md:text-4xl flex justify-center items-center w-[63px] sm:w-[80px] md:w-[108px]  h-[63px] sm:h-[80px] md:h-[108px] mx-auto  bg-[#55E6A5] hover:bg-white rounded-full "><FaPlay color="white" /></p>
                   </button>
                 </div>
 

@@ -4,6 +4,8 @@ import Image from "next/image";
 import eco_hero_bg from "../../assets/images/img/eco-hero-bg.jpg";
 import eco_hero_splash_icon from "../../assets/images/img/eco-hero-splash-icon.png";
 import { GoArrowUp } from "react-icons/go";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const HeroSection = () => {
   return (
@@ -53,11 +55,6 @@ const HeroSection = () => {
 
       <section className="hidden md:block">
         <div>
-          <p className="text-gray-400 font-bold text-[14px]">
-            Visit Our Social Media
-          </p>
-        </div>
-        <div>
           <div className="absolute  -right-5 xl:right-6 top-52 xl:top-80 rotate-90 scale-90	 flex items-center font-bold ">
             <p className="text-[#4989fd]">SCROLL DOWN</p>
             <p className="text-[#f74371] rotate-90 ">
@@ -92,11 +89,11 @@ const HeroSection = () => {
               Visit Our Social Media
             </p>
             <div className="flex gap-1 text-white font-bold">
-              <button className="bg-[#4989fd] md:px-[6px] xl:px-3.5 md:py-[5px] md:text-[11px] xl:text-[15px] xl:py-2.5 rounded-full">
-                FB
+              <button className="bg-[#4989fd] md:px-[8px] xl:px-2.5 md:py-[8px] md:text-[11px] xl:text-[15px] xl:py-2.5 rounded-full">
+                <FaFacebookF />
               </button>
-              <button className="bg-[#4989fd] md:px-[6px] xl:px-3.5 md:py-[5px] md:text-[11px] xl:text-[15px] xl:py-2.5 rounded-full">
-                IN
+              <button className="bg-[#4989fd] md:px-[8px] xl:px-2.5 md:py-[8px] md:text-[11px] xl:text-[15px] xl:py-2.5 rounded-full">
+                <FaLinkedinIn />
               </button>
             </div>
           </div>

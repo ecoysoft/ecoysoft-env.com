@@ -4,6 +4,7 @@ import OurPortfolio from "@/modules/home/portfolio";
 import RecentBlog from "@/modules/home/recent-blog";
 import OurServices from "@/modules/home/services";
 import WhyUs from "@/modules/home/why-choose-us";
+import ClientFeedback from "@/modules/home/client-feedback";
 
 export default function Home() {
   return (
@@ -14,8 +15,9 @@ export default function Home() {
         </div>
         <WhyUs />
         <OurServices />
-        <OurPortfolio />
+        {/* <OurPortfolio /> */}
         <MeetOurProfessional />
+        <ClientFeedback />
         <RecentBlog />
       </div>
       {/* Adding here your all home page component side by side */}

@@ -22,8 +22,8 @@ export default function navbar() {
   return (
     <nav>
       {/* Design here a fully responsive navbar with drawer system */}
-      <section className="bg-[#ffffff] shadow-md text-[#262626] w-[100%] fixed top-0 p-4 md:p-0 z-[5000]">
-        <div className="flex justify-around  items-center ">
+      <section className="bg-[#ffffff] shadow-md text-[#262626] w-[100%] fixed top-0  md:p-0 z-[5000]">
+        <div className="flex justify-around   items-center py-2">
           <div className="block md:hidden text-2xl sm:text-4xl">
             <button onClick={() => SetOpen(!open)}>
               {open ? <IoCloseSharp /> : <FiMenu />}
@@ -31,7 +31,7 @@ export default function navbar() {
           </div>
           <div>
             <Image
-              className="w-[70%] sm:w-[72%] md:w-[75%]  ms-[28%] sm:ms-[50%] md:ms-0 h-auto"
+              className="w-[150px] h-auto"
               src={eco_logo_with_name}
               alt="eco logo"
               width={150}
@@ -42,9 +42,8 @@ export default function navbar() {
           <div>
             <nav>
               <ul
-                className={`flex flex-col md:flex-row ease-linear duration-500 absolute md:static bg-[#f2f2f2] md:bg-none items-center text-[20px] pt-12 md:pt-0 mt-[38px] md:mt-0 w-[100%] h-[100vh] md:w-[100%] md:h-0 gap-8  md:gap-12 md:text-[15px] font-semibold ${
-                  open ? "left-0" : "-left-[100%]"
-                }  `}
+                className={`flex flex-col md:flex-row ease-linear duration-500 absolute md:static bg-[#f2f2f2] md:bg-none items-center text-[20px] pt-12 md:pt-0 mt-[38px] md:mt-0 w-[100%] h-[100vh]  md:h-0 gap-8  md:gap-10 xl:gap-16 md:text-[15px] font-semibold ${open ? "left-0" : "-left-[100%]"
+                  }  `}
               >
                 {navData.map((nav) => (
                   <Link href={nav.url} key={nav.name}>
