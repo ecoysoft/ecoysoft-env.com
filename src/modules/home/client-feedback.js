@@ -25,7 +25,7 @@ export default function ClientFeedback() {
     {
       name: "jany dicosta",
       comment:
-        "laudantium enim quasi est quidem magnam voluptate ipsam eos tempora quo necessitatibus dolor quam autem quasi reiciendis et nam sapiente accusantium",
+        "laudantiu enim quasi est quidem magnam voluptate ipsam eos tempora quo necessitatibus dolor quam autem quasi reiciendis et nam sapiente accusantium",
       image: client_img1,
       location: "islamabad, pakisthan",
     },
