@@ -14,7 +14,7 @@ const professionals = [
 export default function MeetOurProfessional() {
   return (
     <main>
-      <section className="flex flex-col  items-center mt-36">
+      <section className="flex flex-col  items-center mt-52">
         <div>
           <p className="text-[11px] sm:text-[14px] md:text-[17px] text-center  text-[#55E6A5] md:leading-[26px] uppercase">Meet our team members</p>
           <h1 className="text-[25px]  sm:text-[38px] xl:text-[48px] text-center px-2 md:px-12 md:leading-[62px] text-[#18191C] font-bold ">Meet the professional team behind the success</h1>
