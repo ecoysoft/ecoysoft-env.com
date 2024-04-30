@@ -15,7 +15,6 @@ import { MdOutlineTextsms } from "react-icons/md";
 import { GoArrowUpRight } from "react-icons/go";
 
 
-// import Swiper js 
 // Import Swiper React components ------------------------->
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles

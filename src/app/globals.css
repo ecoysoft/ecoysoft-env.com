@@ -1,3 +1,101 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* <--------------------------------- HOME OUR SERVICES  -------------------------> */
+@media (min-width: 350px) and (max-width: 455px) {
+  .services-height {
+    height: 280px;
+  }
+  .services-title-container {
+    top: -25px;
+  }
+
+  .services-item1 {
+    top: 66%;
+  }
+  .services-item2 {
+    top: 37%;
+  }
+  .services-item3 {
+    top: -6%;
+    right: 5%;
+  }
+}
+
+@media (min-width: 455px) and (max-width: 640px) {
+  .services-height {
+    height: 330px;
+  }
+  .services-title-container {
+    top: -25px;
+  }
+  .services-title-container h1 {
+    font-size: 23px;
+  }
+
+  .services-item1 {
+    top: 75%;
+    left: 5%;
+  }
+  .services-item1 h1 {
+    font-size: 30px;
+  }
+  .services-item1 h2 {
+    font-size: 12px;
+  }
+  .services-item1 p {
+    font-size: 11px;
+  }
+  .services-item2 {
+    top: 50%;
+    left: 42%;
+  }
+  .services-item2 h1 {
+    font-size: 30px;
+  }
+  .services-item2 h2 {
+    font-size: 13px;
+  }
+  .services-item2 p {
+    font-size: 11px;
+  }
+  .services-item3 {
+    top: 7%;
+    right: 5%;
+  }
+  .services-item3 h1 {
+    font-size: 30px;
+  }
+  .services-item3 h2 {
+    font-size: 13px;
+  }
+  .services-item3 p {
+    font-size: 11px;
+  }
+}
+@media (min-width: 500px) and (max-width: 640px) {
+  .services-title-container h1 {
+    font-size: 25px;
+  }
+}
+
+/* <--------------------------------- HOME CLIENT FEEDBACK -------------------------> */
+/* .buttonGroup {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 1;
+}
+
+.iconButton {
+  padding: 12px;
+  color: black;
+  background-color: #55e6a5;
+  border: solid 4px #55e6a5;
+  cursor: pointer;
+  user-select: none;
+} */

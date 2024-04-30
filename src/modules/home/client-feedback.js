@@ -43,7 +43,7 @@ export default function ClientFeedback() {
       image: client_img3,
       location: "new dilhi, india",
     }
-    
+
 
   ];
 
