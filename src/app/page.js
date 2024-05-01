@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <WhyUs />
         <OurServices />
-        <OurPortfolio />
+        {/* <OurPortfolio /> */}
         <MeetOurProfessional />
         <ClientFeedback />
         <RecentBlog />

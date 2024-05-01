@@ -47,7 +47,7 @@ export default function navbar() {
               >
                 {navData.map((nav) => (
                   <Link href={nav.url} key={nav.name}>
-                    <li>{nav.name}</li>
+                    <li onClick={(open)}>{nav.name}</li>
                   </Link>
                 ))}
               </ul>

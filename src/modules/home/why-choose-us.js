@@ -1,8 +1,56 @@
 // "use client";
 import Image from "next/image";
-import { FaUserAlt } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
-import eco_bg from "../../assets/images/img/eco-work-bg.png"
+// Import Animated Tooltip ----------------->
+import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+//Import image from assets file ---------------------------->
+import eco_bg from "../../assets/images/img/project2.gif"
+import project1 from "../../assets/images/img/project1.gif"
+import project2 from "../../assets/images/img/project2.gif"
+import project3 from "../../assets/images/img/project3.gif"
+import project4 from "../../assets/images/img/project4.gif"
+import project5 from "../../assets/images/img/project5.gif"
+
+
+const people = [
+  {
+    id: 1,
+    name: "UI/UX",
+    designation: "Software Engineer",
+    image: project1,
+  },
+  {
+    id: 2,
+    name: "Robert Johnson",
+    designation: "Product Manager",
+    image: project2,
+  },
+  {
+    id: 3,
+    name: "Jane Smith",
+    designation: "Data Scientist",
+    image: project3,
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    designation: "UX Designer",
+    image: project4,
+  },
+  {
+    id: 5,
+    name: "Tyler Durden",
+    designation: "Soap Developer",
+    image: project5,
+  },
+  {
+    id: 6,
+    name: "Dora",
+    designation: "The Explorer",
+    image: project1,
+  },
+];
+
 export default function WhyUs() {
   return (
     <>
@@ -45,26 +93,13 @@ export default function WhyUs() {
 
               <div className=" md:ms-[35px] mt-[30px]  flex justify-center md:justify-start ">
 
-                <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-400 -mr-2.5 z-50   border-2 text-[#ffff] rounded-full flex justify-center items-center">
+                {/* <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-400 -mr-2.5 z-50   border-2 text-[#ffff] rounded-full flex justify-center items-center">
                   <FaUserAlt className="w-[100%] h-[50%]" />
-                </p>
+                </p> */}
 
-                <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-400 -mr-2.5 z-40 border-white border-2 text-[#ffff] rounded-full flex justify-center items-center">
-                  <FaUserAlt className="w-[100%] h-[50%]" />
-                </p>
-
-                <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-400 -mr-2.5 z-30 border-white border-2 text-[#ffff] rounded-full flex justify-center items-center">
-                  <FaUserAlt className="w-[100%] h-[50%]" />
-                </p>
-
-                <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-400 -mr-2.5 z-20 border-white border-2 text-[#ffff] rounded-full flex justify-center items-center">
-                  <FaUserAlt className="w-[100%] h-[50%]" />
-                </p>
-
-                <p className="w-[40px] xl:w-[50px] h-[40px] xl:h-[50px] bg-gray-300 border-white border-2 text-[20px] font-semibold text-[#ffff] rounded-full flex justify-center items-center">
-                  +20
-                </p>
-
+                <div className="flex flex-row items-center justify-center mb-10 ">
+                  <AnimatedTooltip items={people} />
+                </div>
               </div>
             </div>
 
