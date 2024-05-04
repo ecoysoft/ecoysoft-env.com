@@ -51,7 +51,7 @@ export default function footer() {
 
   return (
     <footer>
-      <section className="mt-32 bg-[#f8f9fb]">
+      <section className="bg-[#f8f9fb] mt-36">
         <div className="flex flex-col items-center gap-6 pt-20">
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-medium">
             Ready to do your best work?

@@ -80,7 +80,7 @@ export default function RecentBlog() {
 
   return (
     <main>
-      <section className="w-[100%] h-auto bg-[#0A0A0A] mt-36 relative  ">
+      <section className="w-[100%] h-auto bg-[#0A0A0A] mt-36 relative">
         <div className="flex flex-col md:flex-row items-center justify-between pt-12 sm:pt-20  md:pt-24 w-[82%] 2xl:w-[75%] mx-auto">
           <div>
             <p className="text-center md:text-left text-[#55E6A5] text-[11px] sm:text-[14px] ld:text-[16px] leading-[20px]">Blog & News</p>
