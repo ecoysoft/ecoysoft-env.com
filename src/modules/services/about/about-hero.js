@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
 import service_bg from "../../../assets/images/img/project2.gif";
 
-const about_hero = () => {
+const AboutHero = () => {
   return (
     <>
       <main className=" mt-64 mb-64">
@@ -17,9 +17,9 @@ const about_hero = () => {
 
           <div className="w-[25%] text-justify">
             <p className="text-[22px]">
-              Seamlessly formulate exceptional "outside the box" thinking
-              business e-commerce. Phosfiuorescently engage ennd-to-end
-              platforms before integrated.
+              Seamlessly formulate exceptional outside the box thinking business
+              e-commerce. Phosfiuorescently engage ennd-to-end platforms before
+              integrated.
             </p>
           </div>
         </section>
@@ -38,4 +38,4 @@ const about_hero = () => {
   );
 };
 
-export default about_hero;
+export default AboutHero;
