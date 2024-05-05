@@ -5,7 +5,7 @@ import service_bg from "../../../assets/images/img/project3.gif";
 import CEO from "../../../assets/images/img/client2.jpg";
 import Career from "../career";
 
-const founding_story = () => {
+const FundingStory = () => {
   const ex = [
     { count: "14+", title: "Years of experience" },
     { count: "3K", title: "Priject done" },
@@ -53,15 +53,15 @@ const founding_story = () => {
 
           <div className="w-[45%] text-left text-[#717277]">
             <p>
-              Responsibilities The responsibilities of an organization's CEO are
-              set by the organization's board of directors or other authority,
-              depending on the organization's structure. They can be
-              far-reaching or quite limited, and are typically enshrined in a
-              formal delegation of authority regarding business administration.
+              Responsibilities The responsibilities of an organizations CEO are
+              set by the organizations board of directors or other authority,
+              depending on the organizations structure. They can be far-reaching
+              or quite limited, and are typically enshrined in a formal
+              delegation of authority regarding business administration.
               Typically, responsibilities include being an active decision-maker
               on business strategy and other key policy issues, leader, manager,
               and executor. The communicator role can involve speaking to the
-              press and to the public, as well as to the organization's
+              press and to the public, as well as to the organizations
               management and employees; the decision-making role involves
               high-level decisions about policy and strategy.
               <br />
@@ -72,14 +72,14 @@ const founding_story = () => {
               an executive officer of the company, the CEO reports the status of
               the business to the board of directors, motivates employees, and
               drives change within the organization. As a manager, the CEO
-              presides over the organization's day-to-day operations.[5][6][7]
-              The CEO is the person who is ultimately accountable for a
-              company's business decisions, including those in operations,
-              marketing, business development, finance, human resources, etc.
-              The use of the CEO title is not necessarily limited to describing
-              the head of a company. For example, the CEO of a political party
-              is often entrusted with fundraising, particularly for election
-              campaigns. International use In some countries, there is a dual
+              presides over the organizations day-to-day operations.[5][6][7]
+              The CEO is the person who is ultimately accountable for a companys
+              business decisions, including those in operations, marketing,
+              business development, finance, human resources, etc. The use of
+              the CEO title is not necessarily limited to describing the head of
+              a company. For example, the CEO of a political party is often
+              entrusted with fundraising, particularly for election campaigns.
+              International use In some countries, there is a dual
               <br />
               <br />
               <br />
@@ -97,9 +97,9 @@ const founding_story = () => {
             </p>
 
             <h3 className=" text-[40px] font-bold text-[#18191C] mt-12 w-[70%]">
-              "Our goal is to build software that gives customer-facing teams at
+              Our goal is to build software that gives customer-facing teams at
               SMBs the ability to create fruitful and enduring relationships
-              with custmers."
+              with custmers.
             </h3>
           </div>
         </section>
@@ -125,4 +125,4 @@ const founding_story = () => {
   );
 };
 
-export default founding_story;
+export default FundingStory;
