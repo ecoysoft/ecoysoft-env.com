@@ -21,9 +21,8 @@ export default function navbar() {
 
   return (
     <nav>
-      {/* Design here a fully responsive navbar with drawer system */}
-      <section className="bg-[#ffffff] shadow-md text-[#262626] w-[100%] fixed top-0  md:p-0 z-[5000]">
-        <div className="flex justify-around   items-center py-2">
+      <section className="bg-[#ffffff] shadow-md text-[#262626] w-[100%] fixed top-0 md:p-0 z-[5000] ">
+        <div className="flex justify-around   items-center py-2 ">
           <div className="block md:hidden text-2xl sm:text-4xl">
             <button onClick={() => SetOpen(!open)}>
               {open ? <IoCloseSharp /> : <FiMenu />}
